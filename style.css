@@ -1,0 +1,134 @@
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  width: 85%;
+  height: 80vh;
+  background-color: hsla(240, 19%, 41%, 1);
+  margin: 20% auto;
+}
+.pic {
+  border: 1px transparent;
+  width: 50%;
+  height: 15%;
+  background-color: rgb(68, 68, 88);
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+  margin-left: 0%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: -1%;
+  z-index: 1;
+}
+img {
+  height: 25px;
+  padding: 25px;
+
+  /* filter: grayscale(100%); */
+}
+.card {
+  margin-left: 34%;
+  margin-top: 8%;
+  position: absolute;
+  display: flex;
+}
+
+.pop {
+  z-index: 2;
+  padding: px;
+  transform: perspective(1500px);
+  background-color: rgb(24, 24, 28);
+  margin-top: -3.9%;
+  box-shadow: rgb(18, 18, 20) 2px 2px;
+  width: 38%;
+  height: 65px;
+  border-radius: 0px 0px;
+}
+.event {
+  position: absolute;
+  margin-left: -34.7%;
+  width: 33%;
+  height: 55px;
+}
+#pets {
+  position: absolute;
+  margin-left: 100%;
+  width: 33%;
+  height: 55px;
+}
+.gift {
+  width: 33%;
+  height: 55px;
+
+  padding: -50px;
+  /* padding: -10%; */
+}
+.white {
+  width: 18%;
+  height: 40vh;
+  background-color: white;
+  margin: 20% auto;
+  position: absolute;
+  margin-left: 31.5%;
+  margin-top: 13%;
+  border-radius: 5px 5px;
+}
+.image {
+  height: 160px;
+  background-size: cover;
+  width: 100%;
+  margin-top: -9%;
+  margin-left: -8.5%;
+  filter: hsla(205, 21%, 68%, 1);
+  border-radius: 5px 0 0 5px;
+}
+p {
+  position: absolute;
+  margin-top: -20%;
+  margin-left: 12%;
+  color: white;
+}
+h3 {
+  margin-top: -33%;
+  position: absolute;
+  margin-left: 6%;
+  color: white;
+  font-size: 1.7em;
+  font-weight: -5px;
+}
+.loc {
+  position: absolute;
+  margin-top: -30%;
+  margin-left: -4%;
+}
+.line {
+  border-bottom: 1px solid rgb(227, 222, 222);
+  padding: 22%;
+  margin-top: -29%;
+}
+.line p {
+  position: absolute;
+  color: rgb(196, 197, 200);
+  margin-top: -10%;
+  padding: 20%;
+
+  margin-left: -34%;
+}
+span {
+  position: absolute;
+  float: right;
+  margin-left: 128%;
+}
+.t {
+  margin-left: 87%;
+}
+.f {
+  margin-left: 112%;
+}
+.s {
+  margin-left: 123%;
+}
